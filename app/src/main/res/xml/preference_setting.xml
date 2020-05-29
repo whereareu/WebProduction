@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/setting_title_url">
+
+        <EditTextPreference
+            android:defaultValue="@string/url_default"
+            android:key="@string/sp_default_url"
+            android:title="@string/setting_default_url"
+            android:summary="@string/setting_summary_default_url"
+            android:icon="@drawable/icon_edit"/>
+
+        <EditTextPreference
+            android:defaultValue="@string/url_projection"
+            android:key="@string/sp_production_url"
+            android:title="@string/setting_projection_url"
+            android:summary="@string/setting_summary_projection_url"
+            android:icon="@drawable/icon_edit"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/setting_title_key">
+
+        <EditTextPreference
+            android:defaultValue="@string/key"
+            android:key="@string/sp_key"
+            android:title="@string/setting_key"
+            android:summary="@string/setting_summary_key"
+            android:icon="@drawable/icon_edit" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/setting_title_sector">
+
+        <EditTextPreference
+            android:defaultValue="@string/section"
+            android:key="@string/sp_section"
+            android:title="@string/setting_section"
+            android:summary="@string/setting_summary_section"
+            android:icon="@drawable/icon_edit" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/setting_title_duration">
+
+        <EditTextPreference
+            android:defaultValue="@string/duration"
+            android:key="@string/sp_duration"
+            android:title="@string/setting_duration"
+            android:summary="@string/setting_summary_duration"
+            android:icon="@drawable/icon_edit"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.webproduction.fragment.HomeFragment"
+        tools:layout="@layout/fragment_web">
+
+        <action android:id="@+id/home_to_projection"
+            app:destination="@id/projectionFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/projectionFragment"
+        android:name="com.example.webproduction.fragment.ProjectionFragment"
+        tools:layout="@layout/fragment_web"/>
+</navigation>

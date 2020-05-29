@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">WebProduction</string>
+    <string name="error_title">Unable to connect Internet</string>
+    <string name="error_description">网页加载异常，单击按钮返回上个页面</string>
+    <string name="reBack">返回</string>
+    <string name="password">密码</string>
+    <string name="pass_error">密码输入错误</string>
+
+    <string name="refresh">刷新</string>
+    <string name="quit">退出</string>
+    <string name="setting">设置</string>
+    <string name="close">关闭</string>
+    <string name="ok">确定</string>
+    <string name="success" translatable="false">成功</string>
+    <string name="help" translatable="false">帮助</string>
+    <string name="prompt" translatable="false">提示</string>
+    <string name="error" translatable="false">错误</string>
+    <string name="warning" translatable="false">警告</string>
+    
+    <string name="setting_title_url">网址设置</string>
+    <string name="setting_default_url">初始地址</string>
+    <string name="setting_projection_url">项目地址</string>
+    <string name="setting_summary_default_url">应用启动默认地址</string>
+    <string name="setting_summary_projection_url">刷卡成功跳转地址</string>
+    <string name="sp_default_url">sp_default_url</string>
+    <string name="sp_production_url">sp_production_url</string>
+    <string name="url_default">https://baidu.com</string>
+    <string name="url_projection">https://github.com</string>
+    
+    <string name="setting_title_sector">读卡设置</string>
+    <string name="setting_section">扇区位置</string>
+    <string name="setting_summary_section">卡片读取的扇区位置</string>
+    <string name="sp_section">sp_section</string>
+    <string name="section">1</string>
+    
+    <string name="setting_title_key">密钥设置</string>
+    <string name="setting_key">密钥</string>
+    <string name="setting_summary_key">验证用户是否有权限登录</string>
+    <string name="sp_key">sp_key</string>
+    <string name="key">123456</string>
+
+    <string name="setting_title_duration">计时设置</string>
+    <string name="setting_duration">时长</string>
+    <string name="setting_summary_duration">用户未操作自动退出的时长，单位为分钟</string>
+    <string name="sp_duration">sp_duration</string>
+    <string name="duration">1</string>
+
+    <string name="nfcBeClosed" translatable="false">NFC功能未开启，请开启NFC功能</string>
+    <string name="nfcNoFuture" translatable="false">此设备不支持NFC功能</string>
+
+    <string name="setting_changed">配置信息发生变化，请重新刷卡登录</string>
+    
+    <string name="loggingOut">正在退出登录</string>
+    <string name="logged">登录成功</string>
+    <string name="loggedOut">已退出登录</string>
+    <string name="logOut">退出登录</string>
+
+    <string name="inputDuration">请输入自动登出时长</string>
+    <string name="inputSection">请输入扇区位置</string>
+    <string name="inputPositiveNumber">请输入大于0的数值</string>
+</resources>
